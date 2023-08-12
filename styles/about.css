@@ -1,15 +1,15 @@
 .hero-container {
     display: flex;
-    justify-content: center; /* Center the container horizontally */
-    align-items: center; /* Center the items vertically */
-    padding: 0 20px; /* White space on the sides of the container */
-    max-width: 1200px; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container horizontally */
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .caption {
-    flex: 1; /* Take up remaining horizontal space */
-    padding-right: 20px; /* Space between caption and image */
+    flex: 1; 
+    padding-right: 20px;
     box-sizing: border-box;
 }
 
@@ -32,6 +32,27 @@
     display: block;
 }
 
+/* Email Button */
+
+.email {
+    font-weight: bold
+}
+
+.email a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #ffc400, #FF8C00);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.email a:hover {
+    transform: scale(1.1); 
+    background: linear-gradient(to right, #ffc400, #FF8C00);
+}
+
 @media screen and (max-width: 720px) {
     .caption h1 {
         font-size: 28px;
@@ -42,7 +63,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    #p-3 {
+    #mobile-none {
         display: none;
     }
 }
