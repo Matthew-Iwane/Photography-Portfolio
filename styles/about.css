@@ -1,0 +1,48 @@
+.hero-container {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the items vertically */
+    padding: 0 20px; /* White space on the sides of the container */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.caption {
+    flex: 1; /* Take up remaining horizontal space */
+    padding-right: 20px; /* Space between caption and image */
+    box-sizing: border-box;
+}
+
+.caption p {
+    margin: 1em 0 1em 0;
+}
+
+.caption h1 {
+    font-size: 36px;
+}
+
+.image {
+    flex: 1;
+    max-width: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width: 720px) {
+    .caption h1 {
+        font-size: 28px;
+    }
+    .caption p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #p-3 {
+        display: none;
+    }
+}
