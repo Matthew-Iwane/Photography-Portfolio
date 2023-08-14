@@ -2,9 +2,10 @@
 
 This repository showcases a collection of photography work, built using HTML, CSS, JavaScript, and Firebase.
 
-![Portfolio Screenshot](/build/images/screenshots/hero-screenshot.PNG)
-![Portfolio Screenshot](/build/images/screenshots/photo-gallery.PNG)
-![Portfolio Screenshot](/build/images/screenshots/nikon.PNG)
+![hero-screenshot](https://github.com/Matthew-Iwane/Photography-Portfolio/assets/78956743/7f0282db-43a2-4c61-b388-a22a75f85671)
+![photo-gallery](https://github.com/Matthew-Iwane/Photography-Portfolio/assets/78956743/2b7ef121-f462-4ac7-87b1-3eea73c73a36)
+![nikon](https://github.com/Matthew-Iwane/Photography-Portfolio/assets/78956743/48bbb746-b99c-488d-b1b5-8305a5cef4a2)
+
 
 ## Table of Contents
 
