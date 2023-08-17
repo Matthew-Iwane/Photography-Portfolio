@@ -47,7 +47,7 @@ body {
     grid-row: 2 / span 1;
 }
 
-/* 3 longs */
+/* 1x3 long */
 
 .gallery-item-4 {
     grid-column: 1 / span 1;
@@ -138,7 +138,7 @@ body {
         grid-template-rows: repeat(5, 16rem);
     }
 
-    /* 4 wide */
+    /* 2x2 smalls */
 
     .gallery-item-1 {
         grid-column: 1 / span 1;
@@ -160,7 +160,7 @@ body {
         grid-row: 2 / span 1;
     }
 
-    /* 2 longs */
+    /* 1x2 long */
     
     .gallery-item-4 {
         grid-column: 1 / span 1;
@@ -172,7 +172,7 @@ body {
         grid-row: 3 / span 2;
     }
 
-    /* 2 longs */
+    /* 1x2 long*/
     
     .gallery-item-6 {
         grid-column: 1 / span 1;

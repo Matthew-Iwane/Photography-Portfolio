@@ -8,7 +8,6 @@
 }
 
 .caption {
-    flex: 1; 
     padding-right: 20px;
     box-sizing: border-box;
 }
@@ -22,15 +21,12 @@
 }
 
 .image {
-    flex: 1;
     max-width: 100%;
 }
 
 .image img {
     width: 100%;
-    height: auto;
-    display: block;
-
+    height: 100%;
     border-radius: 6px;
 }
 
